@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/T4_ws/devel/.private/plane_segmentation
+
+Name: plane_segmentation
+Description: Description of plane_segmentation
+Version: 0.0.0
+Cflags: -I/home/laowang/workspace/T4_ws/src/plane_segmentation/include
+Libs: -L${prefix}/lib -lplane_segmentation
+Requires: cv_bridge image_geometry image_transport roscpp std_msgs tf

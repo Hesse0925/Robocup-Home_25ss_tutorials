@@ -1,0 +1,43 @@
+<launch>
+  <!-- Declare the launch file arguments -->
+  <arg name="end_effector" default="pal-gripper"/>
+  <arg name="public_sim" default="true"/>
+  <arg name="mapping"        default="$(eval 'gmapping' if arg('public_sim') else 'karto')"/>
+  <arg name="planner"        default="base"/>
+  <arg name="global_planner" default="global_planner"/>
+  <arg name="local_planner"  default="$(eval 'teb' if (arg('public_sim') or arg('base_type')=='omni_base') else 'pal')"/>
+  <arg name="rgbd_sensors"   default="false"/>
+  <arg name="laser_model"  default="sick-571"/>
+  <arg name="camera_model"  default="orbbec-astra"/>
+  <arg name="base_type" default="pmb2"/>
+
+
+  <!-- Load custom world -->
+  <include file="$(find ics_gazebo)/launch/edit_world.launch"/>
+
+  <!-- Start TIAGo simulation -->
+  <include file="$(find ics_gazebo)/launch/tiago_gazebo.launch">
+    <arg name="end_effector" value="$(arg end_effector)"/>
+    <arg name="public_sim" value="$(arg public_sim)"/>
+  </include>
+
+  <include file="$(find tiago_2dnav_gazebo)/launch/navigation.launch">
+      <arg name="state"          value="localization"/>
+      <arg name="mapping"        value="$(arg mapping)"/>
+      <arg name="planner"        value="$(arg planner)"/>
+      <arg name="global_planner" value="$(arg global_planner)"/>
+      <arg name="local_planner"  value="$(arg local_planner)"/>
+      <arg name="public_sim"     value="$(arg public_sim)"/>
+      <arg name="rgbd_sensors"   value="$(arg rgbd_sensors)"/>
+      <arg name="laser_model"    value="$(arg laser_model)"/>
+      <arg name="base_type"      value="$(arg base_type)"/>
+      <arg name="map" value="$(find tiago_localization)/config/wrs2020"/>
+    </include>
+
+  <!-- Load static map only -->
+  
+  <!-- Launch rviz -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find ics_gazebo)/config/tiago.rviz" required="true" />
+
+
+</launch>

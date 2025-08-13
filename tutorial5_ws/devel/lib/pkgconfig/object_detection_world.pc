@@ -1,0 +1,1 @@
+/home/laowang/workspace/tutorial5_ws/devel/.private/object_detection_world/lib/pkgconfig/object_detection_world.pc

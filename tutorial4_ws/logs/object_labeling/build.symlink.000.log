@@ -1,0 +1,5 @@
+Symlinking /home/laowang/workspace/T4_ws/devel/share/object_labeling/cmake/object_labelingConfig-version.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/share/object_labeling/cmake/object_labelingConfig.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/libobject_labeling.so
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/object_labeling/object_labeling_node
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/pkgconfig/object_labeling.pc

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/laowang/workspace/tutorial5_ws/devel/.private/tmc_wrs_gazebo_worlds/setup.sh

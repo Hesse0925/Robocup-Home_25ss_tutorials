@@ -1,0 +1,4 @@
+Symlinking /home/laowang/workspace/T3_ws/devel/share/tiago_localization/cmake/tiago_localizationConfig.cmake
+Symlinking /home/laowang/workspace/T3_ws/devel/share/tiago_localization/cmake/tiago_localizationConfig-version.cmake
+Symlinking /home/laowang/workspace/T3_ws/devel/lib/tiago_localization/tiago_localization_node
+Symlinking /home/laowang/workspace/T3_ws/devel/lib/pkgconfig/tiago_localization.pc

@@ -1,0 +1,6 @@
+Symlinking /home/laowang/workspace/T4_ws/devel/share/darknet_ros/cmake/darknet_rosConfig.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/share/darknet_ros/cmake/darknet_rosConfig-version.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/libdarknet_ros_lib.so
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/libdarknet_ros_nodelet.so
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/darknet_ros/darknet_ros
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/pkgconfig/darknet_ros.pc

@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/T4_ws/install
+
+Name: object_labeling
+Description: Description of object_labeling
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lobject_labeling
+Requires: cv_bridge darknet_ros_msgs image_geometry roscpp sensor_msgs tf tf_conversions

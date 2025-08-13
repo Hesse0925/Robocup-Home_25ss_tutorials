@@ -1,0 +1,4 @@
+[ 50%] Built target controllers_tutorials
+[ 75%] [32mBuilding CXX object CMakeFiles/run_traj_control.dir/src/run_traj_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/tutorial2_ws/devel/.private/controllers_tutorials/lib/controllers_tutorials/run_traj_control[0m
+[100%] Built target run_traj_control

@@ -1,0 +1,6 @@
+object_labeling
+/home/laowang/workspace/T4_ws/devel/.private/object_labeling/share/object_labeling/cmake/object_labelingConfig-version.cmake /home/laowang/workspace/T4_ws/devel/share/object_labeling/cmake/object_labelingConfig-version.cmake
+/home/laowang/workspace/T4_ws/devel/.private/object_labeling/share/object_labeling/cmake/object_labelingConfig.cmake /home/laowang/workspace/T4_ws/devel/share/object_labeling/cmake/object_labelingConfig.cmake
+/home/laowang/workspace/T4_ws/devel/.private/object_labeling/lib/libobject_labeling.so /home/laowang/workspace/T4_ws/devel/lib/libobject_labeling.so
+/home/laowang/workspace/T4_ws/devel/.private/object_labeling/lib/object_labeling/object_labeling_node /home/laowang/workspace/T4_ws/devel/lib/object_labeling/object_labeling_node
+/home/laowang/workspace/T4_ws/devel/.private/object_labeling/lib/pkgconfig/object_labeling.pc /home/laowang/workspace/T4_ws/devel/lib/pkgconfig/object_labeling.pc

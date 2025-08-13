@@ -1,0 +1,6 @@
+devel_space: /home/laowang/workspace/tutorial5_ws/devel
+install: false
+install_space: /home/laowang/workspace/tutorial5_ws/install
+profile: default
+source_space: /home/laowang/workspace/tutorial5_ws/src
+workspace: /home/laowang/workspace/tutorial5_ws

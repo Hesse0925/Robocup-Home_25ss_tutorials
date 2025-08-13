@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target tiago_localization_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tiago_localization_node.dir/src/tiago_localization_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/T3_ws/devel/.private/tiago_localization/lib/tiago_localization/tiago_localization_node[0m
+[100%] Built target tiago_localization_node

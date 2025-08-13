@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/tutorial5_ws/install
+
+Name: arm_control
+Description: Description of arm_control
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp tf geometry_msgs moveit_ros_planning_interface

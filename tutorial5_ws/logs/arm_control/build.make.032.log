@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target move_above_object_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/move_above_object_node.dir/src/arm_control_moveit.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/tutorial5_ws/devel/.private/arm_control/lib/arm_control/move_above_object_node[0m
+[100%] Built target move_above_object_node

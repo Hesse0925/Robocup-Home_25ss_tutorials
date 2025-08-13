@@ -1,0 +1,1 @@
+/home/laowang/workspace/tutorial5_ws/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig.cmake

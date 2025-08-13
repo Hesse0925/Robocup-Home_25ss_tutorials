@@ -1,0 +1,86 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="tutorial2">
+
+    <!-- Light -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Door model -->
+    <include>
+      <uri>model://door</uri>
+      <pose>0.0 0.0 0 1.57 0 0</pose>
+    </include>
+
+    <!-- Table 1 -->
+    <include>
+      <uri>model://table</uri>
+      <name>table1</name>
+      <pose>3.0 2.0 0 0 0 0</pose>
+    </include>
+
+    <!-- Table 2 -->
+    <include>
+      <uri>model://table</uri>
+      <name>table2</name>
+      <pose>6.0 -2.0 0 0 0 0</pose>
+    </include>
+
+
+
+
+    <!-- Coke Can (on table) -->
+    <include>
+      <uri>model://coke_can</uri>
+      <name>coke1</name>
+      <pose>3.3 2.2 1.1 0 0 0</pose>
+    </include>
+
+    <!-- Coke Can (on table) -->
+    <include>
+      <uri>model://coke_can</uri>
+      <name>coke2</name>
+      <pose>3.9 2.2 1.1 0 0 0</pose>
+    </include>
+
+    <!-- Wood Cube (on table) -->
+    <include>
+      <uri>model://wood_cube_5cm</uri>
+      <name>cube1</name>
+      <pose>2.9 2.1 1.1 0 0 0</pose>
+    </include>
+    <!-- Wood Cube (on table) -->
+    <include>
+      <uri>model://wood_cube_5cm</uri>
+      <name>cube2</name>
+      <pose>3.1 2.1 1.1 0 0 0</pose>
+    </include>
+    <!-- Wood Cube (on table) -->
+    <include>
+      <uri>model://wood_cube_5cm</uri>
+      <name>cube3</name>
+      <pose>3.5 2.1 1.1 0 0 0</pose>
+    </include>
+
+    <!-- Bookshelf -->
+    <include>
+      <uri>model://bookshelf</uri>
+      <name>bookshelf1</name>
+      <pose>0.0 -4.0 0 0 0 0</pose>
+    </include>
+
+        <!-- Bookshelf -->
+    <include>
+      <uri>model://bookshelf</uri>
+      <name>bookshelf2</name>
+      <pose>10.0 -4.0 0 0 0 0</pose>
+    </include>
+
+  </world>
+</sdf>

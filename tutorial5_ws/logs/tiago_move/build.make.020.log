@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target move_right_node[0m
+[ 33%] Built target run_traj_control
+[ 66%] Built target tiago_move_node
+[ 83%] [32mBuilding CXX object CMakeFiles/move_right_node.dir/src/no_cup_react_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/tutorial5_ws/devel/.private/tiago_move/lib/tiago_move/move_right_node[0m
+[100%] Built target move_right_node

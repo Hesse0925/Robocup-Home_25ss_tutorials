@@ -1,0 +1,1 @@
+/home/laowang/workspace/T3_ws/devel/.private/catkin_tools_prebuild/setup.bash

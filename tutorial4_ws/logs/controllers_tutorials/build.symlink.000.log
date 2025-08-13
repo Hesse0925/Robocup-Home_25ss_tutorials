@@ -1,0 +1,5 @@
+Symlinking /home/laowang/workspace/T4_ws/devel/share/controllers_tutorials/cmake/controllers_tutorialsConfig-version.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/share/controllers_tutorials/cmake/controllers_tutorialsConfig.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/libcontrollers_tutorials.so
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/controllers_tutorials/run_traj_control
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/pkgconfig/controllers_tutorials.pc

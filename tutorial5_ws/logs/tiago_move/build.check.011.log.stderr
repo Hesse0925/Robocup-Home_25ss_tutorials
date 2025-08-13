@@ -1,0 +1,15 @@
+[31m[1mCMake Error[0m at /home/laowang/workspace/tutorial5_ws/src/tiago_move/CMakeLists.txt:41 (add_executable):
+  Cannot find source file:
+
+    src/move_right_node.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/laowang/workspace/tutorial5_ws/src/tiago_move/CMakeLists.txt:41 (add_executable):
+  No SOURCES given to target: move_right_node
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:1724：cmake_check_build_system] 错误 1

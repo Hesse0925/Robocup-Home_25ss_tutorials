@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target plane_segmentation[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/plane_segmentation.dir/src/plane_segmentation.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/laowang/workspace/T4_ws/devel/.private/plane_segmentation/lib/libplane_segmentation.so[0m
+[ 50%] Built target plane_segmentation
+[35m[1mScanning dependencies of target plane_segmentation_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/plane_segmentation_node.dir/src/applications/plane_segmentation_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/T4_ws/devel/.private/plane_segmentation/lib/plane_segmentation/plane_segmentation_node[0m
+[100%] Built target plane_segmentation_node

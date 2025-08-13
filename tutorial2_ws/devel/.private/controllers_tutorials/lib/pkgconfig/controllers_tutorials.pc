@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/tutorial2_ws/devel/.private/controllers_tutorials
+
+Name: controllers_tutorials
+Description: Description of controllers_tutorials
+Version: 0.1.2
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

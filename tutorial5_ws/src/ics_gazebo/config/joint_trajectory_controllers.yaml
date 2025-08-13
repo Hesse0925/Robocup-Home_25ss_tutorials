@@ -1,0 +1,47 @@
+arm_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - arm_1_joint
+    - arm_2_joint
+    - arm_3_joint
+    - arm_4_joint
+    - arm_5_joint
+    - arm_6_joint
+    - arm_7_joint
+  constraints:
+    goal_time: 2.0
+    stopped_velocity_tolerance: 0.05
+    arm_1_joint: {trajectory: 0.1, goal: 0.1}
+    arm_2_joint: {trajectory: 0.1, goal: 0.1}
+    arm_3_joint: {trajectory: 0.1, goal: 0.1}
+    arm_4_joint: {trajectory: 0.1, goal: 0.1}
+    arm_5_joint: {trajectory: 0.1, goal: 0.1}
+    arm_6_joint: {trajectory: 0.1, goal: 0.1}
+    arm_7_joint: {trajectory: 0.1, goal: 0.1}
+  state_publish_rate: 50
+  action_monitor_rate: 20
+
+head_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - head_1_joint
+    - head_2_joint
+  constraints:
+    goal_time: 2.0
+    stopped_velocity_tolerance: 0.05
+    head_1_joint: {trajectory: 0.1, goal: 0.1}
+    head_2_joint: {trajectory: 0.1, goal: 0.1}
+  state_publish_rate: 50
+  action_monitor_rate: 20
+
+torso_controller:
+  type: position_controllers/JointTrajectoryController
+  joints:
+    - torso_lift_joint
+  constraints:
+    goal_time: 2.0
+    stopped_velocity_tolerance: 0.05
+    torso_lift_joint: {trajectory: 0.1, goal: 0.1}
+  state_publish_rate: 50
+  action_monitor_rate: 20
+

@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/T3_ws/devel/.private/tiago_move
+
+Name: tiago_move
+Description: Description of tiago_move
+Version: 0.0.0
+Cflags: -I/home/laowang/workspace/T3_ws/src/tiago_move/include
+Libs: -L${prefix}/lib 
+Requires: 

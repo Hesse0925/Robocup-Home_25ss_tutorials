@@ -1,0 +1,141 @@
+<sdf version="1.4">
+  <model name="door">
+    <pose>0 0 0 0 0 0</pose> <!-- Reset rotation -->
+
+    <!-- Door frame -->
+    <link name="door_frame">
+      <inertial>
+        <pose>0.525 1 0.05 0 0 0</pose>
+        <mass>30.0</mass>
+        <inertia>
+          <ixx>1</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>1</iyy> <iyz>0.0</iyz> <izz>1</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual_frame">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door/meshes/frame.stl</uri>
+            <scale>0.1 0.1 0.1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision_frame">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door/meshes/frame.stl</uri>
+            <scale>0.1 0.1 0.1</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Door body using box geometry -->
+    <link name="door_body">
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>0.083</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>0.083</iyy> <iyz>0.0</iyz> <izz>0.083</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual_door">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 1.99 0.03</size>
+          </box>
+        </geometry>
+      </visual>
+
+      <collision name="collision_door">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.9 1.99 0.03</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Door handle -->
+    <link name="door_handle">
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>1.0</mass>
+        <inertia>
+          <ixx>1</ixx> <ixy>0.0</ixy> <ixz>0.0</ixz>
+          <iyy>1</iyy> <iyz>0.0</iyz> <izz>1</izz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual_handle">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door/meshes/handle.stl</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision_handle">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://door/meshes/handle.stl</uri>
+            <scale>0.01 0.01 0.01</scale>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Fixed joint: attach frame to world -->
+    <joint name="world_joint" type="fixed">
+      <child>door_frame</child>
+      <parent>world</parent>
+    </joint>
+
+    <!-- Revolute joint between frame and door panel -->
+    <joint name="door_hinge" type="revolute">
+      <parent>door_frame</parent>
+      <child>door_body</child>
+      <pose>0.5 0 1.0 0 0 0</pose> <!-- Left edge of door_body at middle height -->
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.57</lower>
+          <upper>1.57</upper>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+          <friction>0.1</friction>
+        </dynamics>
+      </axis>
+    </joint>
+
+    <!-- Revolute joint for rotating the handle -->
+    <joint name="handle_joint" type="revolute">
+      <parent>door_body</parent>
+      <child>door_handle</child>
+      <pose>0.45 0 1.0 0 0 0</pose> <!-- Right edge of door_body at center height -->
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-0.5</lower>
+          <upper>0.5</upper>
+        </limit>
+        <dynamics>
+          <damping>0.1</damping>
+        </dynamics>
+      </axis>
+    </joint>
+
+  </model>
+</sdf>

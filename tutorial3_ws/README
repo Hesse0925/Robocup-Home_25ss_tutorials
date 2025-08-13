@@ -1,0 +1,41 @@
+Exercise 1:
+You can find the maps in:
+
+~/tutorial3_ws/src/tiago_localization/config/classroom
+~/tutorial3_ws/src/tiago_localization/config/office
+Exercise 2: 
+
+cd ~/tutorial3_ws
+source ~/your_path/tiago_ws
+catkin build
+
+1.publish the launch file:
+
+roslaunch tiago_2dnav_gazebo tiago_navigation.launch public_sim:=true lost:=true 
+
+2. publish the localization node:
+
+roslaunch tiago_localization tiago_localization.launch 
+
+You can see the robot begin to rotate.
+
+Exercise 3:
+
+1. stop the lacalization node:
+  ctrl + C
+  
+2. publish the move node:
+
+roslaunch tiago_move tiago_move.launch
+
+3. You can see the robot run between 3 points
+
+Exercise 4:
+
+ros run tiago_move run_traj_control
+
+The robot waits for a while in front of the table because it needs to adjust its position.
+You can see the robot flipping over the table.
+
+
+         

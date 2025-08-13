@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/tutorial5_ws/install
+
+Name: plane_segmentation
+Description: Description of plane_segmentation
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lplane_segmentation
+Requires: cv_bridge image_geometry image_transport roscpp std_msgs tf

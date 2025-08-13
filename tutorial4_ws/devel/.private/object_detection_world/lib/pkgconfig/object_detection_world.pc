@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/T4_ws/devel/.private/object_detection_world
+
+Name: object_detection_world
+Description: Description of object_detection_world
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

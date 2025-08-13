@@ -1,0 +1,13 @@
+In file included from [01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/robot_hw.h:35[m[K,
+                 from [01m[K/home/laowang/tiago_public_ws/src/ros_control/controller_interface/include/controller_interface/controller_base.h:37[m[K,
+                 from [01m[K/home/laowang/workspace/tutorial5_ws/src/controllers_tutorials/src/new_head_controller.cpp:28[m[K:
+/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h: In instantiation of ‘[01m[Kstatic char (& hardware_interface::CheckIsResourceManager<T>::callCM(std::vector<C*>&, C*, typename C::resource_manager_type*))[1] [with C = hardware_interface::PositionJointInterface; T = hardware_interface::PositionJointInterface; hardware_interface::CheckIsResourceManager<T>::yes = char [1]; typename C::resource_manager_type = hardware_interface::ResourceManager<hardware_interface::JointHandle>][m[K’:
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:83:14:[m[K   required from ‘[01m[Kstatic const void hardware_interface::CheckIsResourceManager<T>::callConcatManagers(std::vector<T*>&, T*) [with T = hardware_interface::PositionJointInterface][m[K’
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:200:54:[m[K   required from ‘[01m[KT* hardware_interface::InterfaceManager::get() [with T = hardware_interface::PositionJointInterface][m[K’
+[01m[K/home/laowang/workspace/tutorial5_ws/src/controllers_tutorials/src/new_head_controller.cpp:56:79:[m[K   required from here
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:74:12:[m[K [01;35m[Kwarning: [m[Kreference to local variable ‘[01m[Ktmp_yes[m[K’ returned [[01;35m[K-Wreturn-local-addr[m[K]
+   74 |     return [01;35m[Ktmp_yes[m[K;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:73:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     yes [01;36m[Ktmp_yes[m[K;
+      |         [01;36m[K^~~~~~~[m[K

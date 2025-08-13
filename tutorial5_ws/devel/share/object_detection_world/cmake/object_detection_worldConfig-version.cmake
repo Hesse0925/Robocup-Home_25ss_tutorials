@@ -1,0 +1,1 @@
+/home/laowang/workspace/tutorial5_ws/devel/.private/object_detection_world/share/object_detection_world/cmake/object_detection_worldConfig-version.cmake

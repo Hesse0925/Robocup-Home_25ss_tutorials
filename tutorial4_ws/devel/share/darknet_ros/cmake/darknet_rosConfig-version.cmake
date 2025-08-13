@@ -1,0 +1,1 @@
+/home/laowang/workspace/T4_ws/devel/.private/darknet_ros/share/darknet_ros/cmake/darknet_rosConfig-version.cmake

@@ -1,0 +1,26 @@
+<launch>
+  <!-- Declare the launch file arguments -->
+  <arg name="end_effector" default="pal-gripper"/>
+  <arg name="public_sim" default="true"/>
+  <arg name="mapping"        default="$(eval 'gmapping' if arg('public_sim') else 'karto')"/>
+  <arg name="planner"        default="base"/>
+  <arg name="global_planner" default="global_planner"/>
+  <arg name="local_planner"  default="$(eval 'teb' if (arg('public_sim') or arg('base_type')=='omni_base') else 'pal')"/>
+  <arg name="rgbd_sensors"   default="false"/>
+  <arg name="laser_model"  default="sick-571"/>
+  <arg name="camera_model"  default="orbbec-astra"/>
+  <arg name="base_type" default="pmb2"/>
+
+
+ 
+
+  <include file="$(find pal_pcl_points_throttle_and_filter)/launch/throttle_filtering_points.launch">
+            <arg name="cloud"  value="/xtion/depth_registered/points"/>
+    </include>
+
+  <!-- Load static map only -->
+  <node name="image_proc" pkg="image_proc" type="image_proc" ns="xtion/rgb"/>
+  
+
+
+</launch>

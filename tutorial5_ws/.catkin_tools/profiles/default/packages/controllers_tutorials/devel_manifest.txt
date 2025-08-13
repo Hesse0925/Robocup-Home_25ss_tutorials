@@ -1,0 +1,7 @@
+controllers_tutorials
+/home/laowang/workspace/tutorial5_ws/devel/.private/controllers_tutorials/share/controllers_tutorials/cmake/controllers_tutorialsConfig-version.cmake /home/laowang/workspace/tutorial5_ws/devel/share/controllers_tutorials/cmake/controllers_tutorialsConfig-version.cmake
+/home/laowang/workspace/tutorial5_ws/devel/.private/controllers_tutorials/share/controllers_tutorials/cmake/controllers_tutorialsConfig.cmake /home/laowang/workspace/tutorial5_ws/devel/share/controllers_tutorials/cmake/controllers_tutorialsConfig.cmake
+/home/laowang/workspace/tutorial5_ws/devel/.private/controllers_tutorials/lib/libcontrollers_tutorials.so /home/laowang/workspace/tutorial5_ws/devel/lib/libcontrollers_tutorials.so
+/home/laowang/workspace/tutorial5_ws/devel/.private/controllers_tutorials/lib/controllers_tutorials/run_traj_arm_control /home/laowang/workspace/tutorial5_ws/devel/lib/controllers_tutorials/run_traj_arm_control
+/home/laowang/workspace/tutorial5_ws/devel/.private/controllers_tutorials/lib/controllers_tutorials/run_traj_control /home/laowang/workspace/tutorial5_ws/devel/lib/controllers_tutorials/run_traj_control
+/home/laowang/workspace/tutorial5_ws/devel/.private/controllers_tutorials/lib/pkgconfig/controllers_tutorials.pc /home/laowang/workspace/tutorial5_ws/devel/lib/pkgconfig/controllers_tutorials.pc

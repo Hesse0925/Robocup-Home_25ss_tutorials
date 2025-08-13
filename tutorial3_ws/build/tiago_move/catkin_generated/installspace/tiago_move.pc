@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/T3_ws/install
+
+Name: tiago_move
+Description: Description of tiago_move
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

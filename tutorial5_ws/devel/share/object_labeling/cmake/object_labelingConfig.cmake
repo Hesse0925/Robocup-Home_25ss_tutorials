@@ -1,0 +1,1 @@
+/home/laowang/workspace/tutorial5_ws/devel/.private/object_labeling/share/object_labeling/cmake/object_labelingConfig.cmake

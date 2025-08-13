@@ -1,0 +1,5 @@
+Symlinking /home/laowang/workspace/T4_ws/devel/share/plane_segmentation/cmake/plane_segmentationConfig.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/share/plane_segmentation/cmake/plane_segmentationConfig-version.cmake
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/libplane_segmentation.so
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/plane_segmentation/plane_segmentation_node
+Symlinking /home/laowang/workspace/T4_ws/devel/lib/pkgconfig/plane_segmentation.pc

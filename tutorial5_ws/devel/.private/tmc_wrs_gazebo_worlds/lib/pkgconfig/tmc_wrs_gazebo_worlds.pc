@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/tutorial5_ws/devel/.private/tmc_wrs_gazebo_worlds
+
+Name: tmc_wrs_gazebo_worlds
+Description: Description of tmc_wrs_gazebo_worlds
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

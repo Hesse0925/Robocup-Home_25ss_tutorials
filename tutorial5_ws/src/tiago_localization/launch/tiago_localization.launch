@@ -1,0 +1,14 @@
+<launch>
+  <arg name="spin_speed" default="1" />
+  <arg name="threshold" default="0.001" />
+
+  <node name="tiago_localization_node" pkg="tiago_localization" type="tiago_localization_node" output="screen">
+    <param name="spin_speed" value="$(arg spin_speed)" />
+    <param name="threshold" value="$(arg threshold)" />
+
+  </node>
+
+
+
+
+</launch>

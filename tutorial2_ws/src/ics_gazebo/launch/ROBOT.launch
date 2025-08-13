@@ -1,0 +1,13 @@
+<launch>
+  <!-- start the world，input world_suffix  -->
+  <arg name="world_suffix" default="default"/>
+
+  <include file="$(find ics_gazebo)/launch/edit_world.launch">
+    <arg name="world_suffix" value="$(arg world_suffix)"/>
+  </include>
+
+  <!-- start TIAGo -->
+  <include file="$(find ics_gazebo)/launch/tiago.launch"/>
+
+
+</launch>

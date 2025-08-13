@@ -1,0 +1,1 @@
+/home/laowang/workspace/tutorial5_ws/devel/.private/catkin_tools_prebuild/setup.zsh

@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/laowang/workspace/tutorial5_ws/devel/lib/python3/dist-packages",
+        "/home/laowang/tiago_public_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/laowang/workspace/tutorial5_ws/devel/lib/python3/dist-packages",
+        "/home/laowang/tiago_public_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}

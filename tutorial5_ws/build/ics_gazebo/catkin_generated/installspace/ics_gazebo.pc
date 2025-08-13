@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/tutorial5_ws/install
+
+Name: ics_gazebo
+Description: Description of ics_gazebo
+Version: 2.0.12
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

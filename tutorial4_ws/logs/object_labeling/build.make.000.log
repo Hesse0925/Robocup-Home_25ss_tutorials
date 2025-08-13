@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target object_labeling[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/object_labeling.dir/src/object_labeling.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/laowang/workspace/T4_ws/devel/.private/object_labeling/lib/libobject_labeling.so[0m
+[ 50%] Built target object_labeling
+[35m[1mScanning dependencies of target object_labeling_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/object_labeling_node.dir/src/applications/object_labeling_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/T4_ws/devel/.private/object_labeling/lib/object_labeling/object_labeling_node[0m
+[100%] Built target object_labeling_node

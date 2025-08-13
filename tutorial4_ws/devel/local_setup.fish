@@ -1,0 +1,1 @@
+/home/laowang/workspace/T4_ws/devel/.private/catkin_tools_prebuild/local_setup.fish
