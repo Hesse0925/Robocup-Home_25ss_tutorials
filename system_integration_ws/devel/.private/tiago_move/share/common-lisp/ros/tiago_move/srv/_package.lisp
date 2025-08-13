@@ -1,0 +1,10 @@
+(cl:defpackage tiago_move-srv
+  (:use )
+  (:export
+   "GENERATEGRASPS"
+   "<GENERATEGRASPS-REQUEST>"
+   "GENERATEGRASPS-REQUEST"
+   "<GENERATEGRASPS-RESPONSE>"
+   "GENERATEGRASPS-RESPONSE"
+  ))
+

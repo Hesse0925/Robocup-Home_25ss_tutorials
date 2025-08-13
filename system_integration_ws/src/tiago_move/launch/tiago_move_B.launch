@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+ 
+  <rosparam file="$(find tiago_move)/launch/config/config_B.yaml"/>
+
+  
+
+  <node name="tiago_move_node_B" pkg="tiago_move" type="tiago_move_node_B" output="screen"/>
+</launch>

@@ -1,0 +1,1 @@
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/share/red_marker_detector/cmake/red_marker_detectorConfig-version.cmake

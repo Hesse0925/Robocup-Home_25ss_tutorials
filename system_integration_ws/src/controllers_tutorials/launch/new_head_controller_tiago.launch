@@ -1,0 +1,12 @@
+<launch>
+  <!--  YAML  -->
+  <rosparam file="$(find controllers_tutorials)/config/new_head_controller.yaml" command="load"/>
+
+  <!--  spawner  -->
+  <node name="controller_spawner"
+        pkg="controller_manager"
+        type="spawner"
+        args="new_head_controller"
+        output="screen"/>
+</launch>
+

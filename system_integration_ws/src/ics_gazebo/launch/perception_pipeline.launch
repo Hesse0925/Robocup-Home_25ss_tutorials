@@ -1,0 +1,13 @@
+<launch>
+  <!-- 2. Lower the head -->
+  <node name="head_down" pkg="controllers_tutorials" type="run_traj_control" output="screen" />
+
+  <!-- 3. YOLO object detection -->
+  <include file="$(find object_detection_world)/launch/object_detection_world.launch" />
+
+  <!-- 4. Plane segmentation -->
+  <include file="$(find plane_segmentation)/launch/plane_segmentation_tiago.launch" />
+
+  <!-- 5. Object labeling -->
+  <include file="$(find object_labeling)/launch/object_labeling.launch" />
+</launch>

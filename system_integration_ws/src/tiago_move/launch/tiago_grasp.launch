@@ -1,0 +1,9 @@
+<launch>
+  <arg name="robot" default="tiago"/>
+   <!-- Load definition of pregrasp motion into play_motion namespace -->
+   <rosparam command="load" file="$(find tiago_move)/config/pick_motions.yaml" /> 
+   <!-- <include file="$(find tiago_moveit_config)/launch/move_group.launch"/> -->
+
+   <node name="tiago_grasp_node" pkg="tiago_move" type="tiago_grasp_node" output="screen"/>
+  
+</launch>

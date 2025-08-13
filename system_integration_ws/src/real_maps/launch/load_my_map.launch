@@ -1,0 +1,13 @@
+<launch>
+  <arg name="map_file" default="$(find real_maps)/maps/my_room_map.yaml"/>
+
+  <node name="map_server" pkg="map_server" type="map_server"
+        args="$(arg map_file)" output="screen" />
+
+  <include file="$(find tiago_navigation)/launch/localization.launch">
+    <arg name="map_file" value="$(arg map_file)" />
+  </include>
+
+  <node name="rviz" pkg="rviz" type="rviz"
+        args="-d $(find tiago_navigation)/rviz/navigation.rviz"/>
+</launch>

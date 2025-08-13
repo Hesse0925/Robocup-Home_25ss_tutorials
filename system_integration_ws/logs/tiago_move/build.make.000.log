@@ -1,0 +1,136 @@
+[  0%] Built target geometry_msgs_generate_messages_py
+[  5%] [32mBuilding CXX object CMakeFiles/tiago_move_node_A.dir/src/tiago_move_node_A.cpp.o[0m
+[ 10%] Built target moveit_msgs_generate_messages_py
+[ 10%] [32mBuilding CXX object CMakeFiles/tiago_move_node_B.dir/src/tiago_move_node_B.cpp.o[0m
+[ 10%] Built target geometry_msgs_generate_messages_eus
+[ 10%] Built target geometry_msgs_generate_messages_lisp
+[ 10%] Built target moveit_msgs_generate_messages_lisp
+[ 10%] Built target moveit_msgs_generate_messages_eus
+[ 10%] Built target geometry_msgs_generate_messages_nodejs
+[ 10%] Built target moveit_msgs_generate_messages_nodejs
+[ 10%] Built target actionlib_generate_messages_cpp
+[ 10%] Built target actionlib_generate_messages_eus
+[ 10%] Built target actionlib_generate_messages_lisp
+[ 10%] Built target actionlib_generate_messages_nodejs
+[ 10%] Built target actionlib_generate_messages_py
+[ 10%] Built target moveit_msgs_generate_messages_cpp
+[ 10%] Built target actionlib_msgs_generate_messages_lisp
+[ 10%] Built target actionlib_msgs_generate_messages_cpp
+[ 10%] Built target actionlib_msgs_generate_messages_nodejs
+[ 10%] Built target actionlib_msgs_generate_messages_py
+[ 10%] Built target geometry_msgs_generate_messages_cpp
+[ 10%] Built target actionlib_msgs_generate_messages_eus
+[ 10%] Built target std_msgs_generate_messages_cpp
+[ 10%] Built target std_msgs_generate_messages_eus
+[ 10%] Built target std_msgs_generate_messages_py
+[ 10%] Built target std_msgs_generate_messages_lisp
+[ 10%] Built target _catkin_empty_exported_target
+[ 10%] Built target roscpp_generate_messages_eus
+[ 10%] Built target roscpp_generate_messages_lisp
+[ 10%] Built target roscpp_generate_messages_nodejs
+[ 10%] Built target roscpp_generate_messages_py
+[ 10%] Built target std_msgs_generate_messages_nodejs
+[ 10%] Built target rosgraph_msgs_generate_messages_lisp
+[ 10%] Built target rosgraph_msgs_generate_messages_cpp
+[ 10%] Built target rosgraph_msgs_generate_messages_eus
+[ 10%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 10%] Built target roscpp_generate_messages_cpp
+[ 10%] Built target move_base_msgs_generate_messages_cpp
+[ 10%] Built target move_base_msgs_generate_messages_eus
+[ 10%] Built target move_base_msgs_generate_messages_lisp
+[ 10%] Built target rosgraph_msgs_generate_messages_py
+[ 10%] Built target move_base_msgs_generate_messages_nodejs
+[ 10%] Built target sensor_msgs_generate_messages_cpp
+[ 10%] Built target move_base_msgs_generate_messages_py
+[ 10%] Built target sensor_msgs_generate_messages_lisp
+[ 10%] Built target sensor_msgs_generate_messages_eus
+[ 10%] Built target sensor_msgs_generate_messages_nodejs
+[ 10%] Built target sensor_msgs_generate_messages_py
+[ 10%] Built target trajectory_msgs_generate_messages_cpp
+[ 10%] Built target trajectory_msgs_generate_messages_eus
+[ 10%] Built target _tiago_move_generate_messages_check_deps_GenerateGrasps
+[ 10%] Built target trajectory_msgs_generate_messages_nodejs
+[ 10%] Built target trajectory_msgs_generate_messages_py
+[ 10%] Built target shape_msgs_generate_messages_cpp
+[ 10%] Built target trajectory_msgs_generate_messages_lisp
+[ 10%] Built target shape_msgs_generate_messages_eus
+[ 10%] Built target shape_msgs_generate_messages_py
+[ 10%] Built target shape_msgs_generate_messages_nodejs
+[ 10%] Built target object_recognition_msgs_generate_messages_eus
+[ 10%] Built target object_recognition_msgs_generate_messages_cpp
+[ 10%] Built target shape_msgs_generate_messages_lisp
+[ 10%] Built target object_recognition_msgs_generate_messages_py
+[ 10%] Built target object_recognition_msgs_generate_messages_nodejs
+[ 10%] Built target octomap_msgs_generate_messages_eus
+[ 10%] Built target object_recognition_msgs_generate_messages_lisp
+[ 10%] Built target octomap_msgs_generate_messages_cpp
+[ 10%] Built target octomap_msgs_generate_messages_lisp
+[ 10%] Built target octomap_msgs_generate_messages_py
+[ 10%] Built target octomap_msgs_generate_messages_nodejs
+[ 10%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 10%] Built target moveit_ros_planning_gencfg
+[ 10%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 10%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 10%] Built target dynamic_reconfigure_generate_messages_eus
+[ 10%] Built target dynamic_reconfigure_gencfg
+[ 10%] Built target dynamic_reconfigure_generate_messages_py
+[ 10%] Built target visualization_msgs_generate_messages_cpp
+[ 10%] Built target visualization_msgs_generate_messages_eus
+[ 10%] Built target visualization_msgs_generate_messages_py
+[ 10%] Built target tf2_msgs_generate_messages_cpp
+[ 10%] Built target visualization_msgs_generate_messages_nodejs
+[ 10%] Built target tf2_msgs_generate_messages_eus
+[ 10%] Built target tf2_msgs_generate_messages_lisp
+[ 10%] Built target tf2_msgs_generate_messages_nodejs
+[ 10%] Built target visualization_msgs_generate_messages_lisp
+[ 10%] Built target tf_generate_messages_cpp
+[ 10%] Built target tf2_msgs_generate_messages_py
+[ 10%] Built target tf_generate_messages_eus
+[ 10%] Built target tf_generate_messages_py
+[ 10%] Built target tf_generate_messages_lisp
+[ 10%] Built target tf_generate_messages_nodejs
+[ 10%] Built target moveit_ros_manipulation_gencfg
+[ 10%] Built target std_srvs_generate_messages_lisp
+[ 10%] Built target std_srvs_generate_messages_eus
+[ 10%] Built target std_srvs_generate_messages_py
+[ 15%] Built target std_srvs_generate_messages_cpp
+[ 15%] [32mBuilding CXX object CMakeFiles/tiago_place_node.dir/src/tiago_place_node.cpp.o[0m
+[ 15%] Built target std_srvs_generate_messages_nodejs
+[ 15%] Built target control_msgs_generate_messages_cpp
+[ 21%] [32mBuilding CXX object CMakeFiles/gripper_control.dir/src/gripper_control.cpp.o[0m
+[ 21%] Built target control_msgs_generate_messages_eus
+[ 21%] Built target play_motion_msgs_generate_messages_eus
+[ 21%] Built target play_motion_msgs_generate_messages_nodejs
+[ 21%] Built target control_msgs_generate_messages_lisp
+[ 21%] Built target control_msgs_generate_messages_nodejs
+[ 21%] Built target play_motion_msgs_generate_messages_lisp
+[ 21%] Built target play_motion_msgs_generate_messages_cpp
+[ 21%] Built target control_msgs_generate_messages_py
+[ 21%] Built target play_motion_msgs_generate_messages_py
+[ 26%] [34m[1mGenerating Python code from SRV tiago_move/GenerateGrasps[0m
+[ 31%] [34m[1mGenerating C++ code from tiago_move/GenerateGrasps.srv[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/grip_with_index.dir/src/grip_with_index.cpp.o[0m
+[ 42%] [34m[1mGenerating EusLisp code from tiago_move/GenerateGrasps.srv[0m
+[ 57%] [34m[1mGenerating EusLisp manifest code for tiago_move[0m
+[ 57%] [34m[1mGenerating Javascript code from tiago_move/GenerateGrasps.srv[0m
+[ 57%] [34m[1mGenerating Lisp code from tiago_move/GenerateGrasps.srv[0m
+[ 57%] Built target tiago_move_generate_messages_lisp
+[ 57%] Built target tiago_move_generate_messages_nodejs
+[ 63%] [34m[1mGenerating Python srv __init__.py for tiago_move[0m
+[ 63%] Built target tiago_move_generate_messages_cpp
+[ 63%] Built target tiago_move_generate_messages_py
+[ 63%] Built target tiago_move_generate_messages_eus
+[ 63%] Built target tiago_move_generate_messages
+[ 68%] [32mBuilding CXX object CMakeFiles/tiago_grasp_node.dir/src/tiago_grasp_node.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/tiago_move/tiago_move_node_A[0m
+[ 78%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/tiago_move/tiago_move_node_B[0m
+[ 78%] Built target tiago_move_node_A
+[ 78%] Built target tiago_move_node_B
+[ 84%] [32m[1mLinking CXX shared library /home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/libgripper_control.so[0m
+[ 84%] Built target gripper_control
+[ 89%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/tiago_move/grip_with_index[0m
+[ 94%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/tiago_move/tiago_place_node[0m
+[ 94%] Built target grip_with_index
+[ 94%] Built target tiago_place_node
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/tiago_move/tiago_grasp_node[0m
+[100%] Built target tiago_grasp_node

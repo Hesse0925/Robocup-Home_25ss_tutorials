@@ -1,0 +1,9 @@
+<launch>
+  <!-- 启动 map_server，加载保存好的地图 -->
+  <!-- <node name="map_server" pkg="map_server" type="map_server" args="/home/yu-ubuntu/ros/workspaces/system_integration_ws/src/real_maps/maps/my_room_map.yaml"/> -->
+
+  <!-- 启动 localization -->
+  <include file="$(find tiago_localization)/launch/tiago_localization.launch"/>
+  <param name="spin_speed" value="0.5"/>
+  <param name="covariance_threshold" value="0.1"/>
+</launch>

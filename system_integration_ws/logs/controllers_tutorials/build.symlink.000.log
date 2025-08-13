@@ -1,0 +1,7 @@
+Symlinking /home/laowang/workspace/system_integration_ws/devel/share/controllers_tutorials/cmake/controllers_tutorialsConfig-version.cmake
+Symlinking /home/laowang/workspace/system_integration_ws/devel/share/controllers_tutorials/cmake/controllers_tutorialsConfig.cmake
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/libcontrollers_tutorials.so
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/controllers_tutorials/build_map_controller
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/controllers_tutorials/raise_head
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/controllers_tutorials/run_traj_control
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/pkgconfig/controllers_tutorials.pc

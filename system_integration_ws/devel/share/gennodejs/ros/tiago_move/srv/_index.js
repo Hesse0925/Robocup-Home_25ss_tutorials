@@ -1,0 +1,1 @@
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/share/gennodejs/ros/tiago_move/srv/_index.js

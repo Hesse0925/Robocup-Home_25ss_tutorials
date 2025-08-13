@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/system_integration_ws/install
+
+Name: tiago_task_manager
+Description: Description of tiago_task_manager
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

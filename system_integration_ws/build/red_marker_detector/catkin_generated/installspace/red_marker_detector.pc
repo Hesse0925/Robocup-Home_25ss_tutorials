@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/system_integration_ws/install
+
+Name: red_marker_detector
+Description: Description of red_marker_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

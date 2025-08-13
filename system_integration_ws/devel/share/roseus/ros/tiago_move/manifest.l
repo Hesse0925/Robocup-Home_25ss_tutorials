@@ -1,0 +1,1 @@
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/share/roseus/ros/tiago_move/manifest.l

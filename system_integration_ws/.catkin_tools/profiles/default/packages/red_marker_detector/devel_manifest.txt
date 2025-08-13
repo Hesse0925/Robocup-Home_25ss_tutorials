@@ -1,0 +1,8 @@
+red_marker_detector
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/share/red_marker_detector/cmake/red_marker_detectorConfig.cmake /home/laowang/workspace/system_integration_ws/devel/share/red_marker_detector/cmake/red_marker_detectorConfig.cmake
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/share/red_marker_detector/cmake/red_marker_detectorConfig-version.cmake /home/laowang/workspace/system_integration_ws/devel/share/red_marker_detector/cmake/red_marker_detectorConfig-version.cmake
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/lib/red_marker_detector/blue_marker_pose_node.py /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/blue_marker_pose_node.py
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/lib/red_marker_detector/red_marker_detector_top3.py /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/red_marker_detector_top3.py
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/lib/red_marker_detector/align_yaw_to_marker.py /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/align_yaw_to_marker.py
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/lib/red_marker_detector/red_marker_detector_node.py /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/red_marker_detector_node.py
+/home/laowang/workspace/system_integration_ws/devel/.private/red_marker_detector/lib/pkgconfig/red_marker_detector.pc /home/laowang/workspace/system_integration_ws/devel/lib/pkgconfig/red_marker_detector.pc

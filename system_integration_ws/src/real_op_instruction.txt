@@ -1,0 +1,25 @@
+1. On you local PC execute following commands:
+
+export ROS_MASTER_URI=http://tiago-46c:11311
+export ROS_IP=ip_of_your_PC
+
+Try ping tiago-46c to test the connection
+
+2.查阅本机ip地址代码：hostname -I 
+
+3.web commander:http://192.168.1.200:8080
+
+  如果是用网线连接：http://control:8080
+4.要使自己的代码在tiago实机上跑
+在
+gedit ~/.bashrc的最后加入
+export ROS_MASTER_URI=http://192.168.1.200:11311
+export ROS_HOSTNAME=192.168.1.163(余子逸的电脑的IP/其他人用的话需更换)
+
+然后 source ~/.bashrc
+
+5. 然后直接运行节点，不用单开roscore
+
+
+6.连接到tiago：ssh pal@tiago-46c
+密码：pal

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+    
+  <!-- 1. 参数配置 -->
+  <arg name="robot" default="steel"/>
+  <arg name="mapping" default="gmapping"/>
+  <arg name="public_sim" default="false"/>
+  <arg name="tuck_arm" default="true"/>
+
+  <!-- 2. 启动 Tiago 实机 bringup -->
+  <include file="$(find tiago_bringup)/launch/tiago_bringup.launch">
+    <arg name="robot" value="$(arg robot)"/>
+    <arg name="public_sim" value="$(arg public_sim)"/>
+  </include>
+
+  <!-- 3. 启动 SLAM（gmapping 或 cartographer），默认监听 /scan -->
+  <include file="$(find tiago_2dnav)/launch/mapping.launch">
+    <arg name="mapping" value="$(arg mapping)"/>
+  </include>
+
+  <!-- 4. 启动 Rviz 查看建图 -->
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find tiago_2dnav)/rviz/slam.rviz" />
+
+  <!-- 5. 启动 tuck arm 动作（收起手臂） -->
+  <group if="$(arg tuck_arm)">
+    <node name="tuck_arm" pkg="tiago_tuck_arm" type="tuck_arm.py" output="screen"/>
+  </group>
+
+</launch>

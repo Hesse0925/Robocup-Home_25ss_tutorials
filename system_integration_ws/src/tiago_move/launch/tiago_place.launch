@@ -1,0 +1,6 @@
+<launch>
+  <arg name="robot" default="tiago"/>
+   <include file="$(find tiago_moveit_config)/launch/move_group.launch"/>
+
+  <node name="tiago_place_node" pkg="tiago_move" type="tiago_place_node" output="screen"/>
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+  <arg name="world_suffix" default="wrs2020"/>
+
+  <env name="GAZEBO_MODEL_PATH"  
+       value="$(optenv GAZEBO_MODEL_PATH):$(find ics_gazebo)/models:$(find tiago_gazebo)/models"/>
+  <env name="LC_NUMERIC" value="C" />
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find tmc_wrs_gazebo_worlds)/worlds/$(arg world_suffix).world"/>
+  </include>
+</launch>

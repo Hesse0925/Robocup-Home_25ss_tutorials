@@ -1,0 +1,35 @@
+play_motion:
+  motions:
+    side_grasp:
+      joints: [torso_lift_joint, arm_1_joint, arm_2_joint, arm_3_joint,
+               arm_4_joint, arm_5_joint, arm_6_joint, arm_7_joint]
+      points:
+        - positions: [0.245, 0.262, 0.561, -0.910, 1.707, -1.382, 1.334, 0.932]
+          time_from_start: 1.0
+      meta:
+        name: "side_grasp"
+        usage: "manipulation"
+        description: "Move arm to pre-grasp side position"
+
+    pick_final_pose:
+      joints: [torso_lift_joint, arm_1_joint,
+               arm_2_joint, arm_3_joint, arm_4_joint, arm_5_joint,
+               arm_6_joint, arm_7_joint]
+      points:  
+        - positions: [0.346, 0.346, 0.739, -0.757, -1.395, -0.378, 1.082, 0.924]
+          time_from_start: 1.0
+      meta:
+        name: "pick_final_pose"
+        usage: "manipulation"
+        description: "Move arm to grasping pose near object"
+
+    post_grasp_lift:
+      joints: [torso_lift_joint, arm_1_joint, arm_2_joint, arm_3_joint,
+               arm_4_joint, arm_5_joint, arm_6_joint, arm_7_joint]
+      points:
+        - positions: [0.226, 0.366, 0.137, -3.130, 1.571, 0.000, 0.000, 0.000]
+          time_from_start: 2.0
+      meta:
+        name: "post_grasp_lift"
+        usage: "manipulation"
+        description: "Lift object after grasp to safe height"

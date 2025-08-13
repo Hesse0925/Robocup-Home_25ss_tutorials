@@ -1,0 +1,8 @@
+prefix=/home/laowang/workspace/system_integration_ws/install
+
+Name: real_maps
+Description: Description of real_maps
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

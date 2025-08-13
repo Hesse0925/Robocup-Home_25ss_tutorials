@@ -1,0 +1,1 @@
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_move/lib/python3/dist-packages/tiago_move/srv/__init__.py

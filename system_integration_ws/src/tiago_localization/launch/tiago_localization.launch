@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+  <rosparam file="$(find tiago_localization)/launch/config/config.yaml" />
+
+  <node name="tiago_localization_node" pkg="tiago_localization" type="tiago_localization_node" output="screen"/>
+  <param name="spin_speed" value="1"/>
+  <param name="covariance_threshold" value="0.1"/>
+</launch>

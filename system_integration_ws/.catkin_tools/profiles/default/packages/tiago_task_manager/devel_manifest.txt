@@ -1,0 +1,5 @@
+tiago_task_manager
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_task_manager/share/tiago_task_manager/cmake/tiago_task_managerConfig-version.cmake /home/laowang/workspace/system_integration_ws/devel/share/tiago_task_manager/cmake/tiago_task_managerConfig-version.cmake
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_task_manager/share/tiago_task_manager/cmake/tiago_task_managerConfig.cmake /home/laowang/workspace/system_integration_ws/devel/share/tiago_task_manager/cmake/tiago_task_managerConfig.cmake
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_task_manager/lib/tiago_task_manager/tiago_state_machine.py /home/laowang/workspace/system_integration_ws/devel/lib/tiago_task_manager/tiago_state_machine.py
+/home/laowang/workspace/system_integration_ws/devel/.private/tiago_task_manager/lib/pkgconfig/tiago_task_manager.pc /home/laowang/workspace/system_integration_ws/devel/lib/pkgconfig/tiago_task_manager.pc

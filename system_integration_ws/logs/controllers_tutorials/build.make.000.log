@@ -1,0 +1,27 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/controllers_tutorials.dir/src/new_head_controller.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/run_traj_control.dir/src/run_traj_control.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/build_map_controller.dir/src/build_map_controller.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/raise_head.dir/src/raise_head.cpp.o[0m
+In file included from [01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/robot_hw.h:35[m[K,
+                 from [01m[K/home/laowang/tiago_public_ws/src/ros_control/controller_interface/include/controller_interface/controller_base.h:37[m[K,
+                 from [01m[K/home/laowang/tiago_public_ws/src/ros_control/controller_interface/include/controller_interface/controller.h:35[m[K,
+                 from [01m[K/home/laowang/workspace/system_integration_ws/src/controllers_tutorials/src/new_head_controller.cpp:1[m[K:
+/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h: In instantiation of ‘[01m[Kstatic char (& hardware_interface::CheckIsResourceManager<T>::callCM(std::vector<C*>&, C*, typename C::resource_manager_type*))[1] [with C = hardware_interface::PositionJointInterface; T = hardware_interface::PositionJointInterface; hardware_interface::CheckIsResourceManager<T>::yes = char [1]; typename C::resource_manager_type = hardware_interface::ResourceManager<hardware_interface::JointHandle>][m[K’:
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:83:14:[m[K   required from ‘[01m[Kstatic const void hardware_interface::CheckIsResourceManager<T>::callConcatManagers(std::vector<T*>&, T*) [with T = hardware_interface::PositionJointInterface][m[K’
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:200:54:[m[K   required from ‘[01m[KT* hardware_interface::InterfaceManager::get() [with T = hardware_interface::PositionJointInterface][m[K’
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/controller_interface/include/controller_interface/controller.h:114:8:[m[K   required from ‘[01m[Kbool controller_interface::Controller<T>::initRequest(hardware_interface::RobotHW*, ros::NodeHandle&, ros::NodeHandle&, controller_interface::ControllerBase::ClaimedResources&) [with T = hardware_interface::PositionJointInterface; controller_interface::ControllerBase::ClaimedResources = std::vector<hardware_interface::InterfaceResources>][m[K’
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/controller_interface/include/controller_interface/controller.h:98:16:[m[K   required from here
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:74:12:[m[K [01;35m[Kwarning: [m[Kreference to local variable ‘[01m[Ktmp_yes[m[K’ returned [[01;35m[K-Wreturn-local-addr[m[K]
+   74 |     return [01;35m[Ktmp_yes[m[K;
+      |            [01;35m[K^~~~~~~[m[K
+[01m[K/home/laowang/tiago_public_ws/src/ros_control/hardware_interface/include/hardware_interface/internal/interface_manager.h:73:9:[m[K [01;36m[Knote: [m[Kdeclared here
+   73 |     yes [01;36m[Ktmp_yes[m[K;
+      |         [01;36m[K^~~~~~~[m[K
+[ 62%] [32m[1mLinking CXX shared library /home/laowang/workspace/system_integration_ws/devel/.private/controllers_tutorials/lib/libcontrollers_tutorials.so[0m
+[ 62%] Built target controllers_tutorials
+[ 75%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/controllers_tutorials/lib/controllers_tutorials/raise_head[0m
+[ 87%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/controllers_tutorials/lib/controllers_tutorials/build_map_controller[0m
+[ 87%] Built target raise_head
+[ 87%] Built target build_map_controller
+[100%] [32m[1mLinking CXX executable /home/laowang/workspace/system_integration_ws/devel/.private/controllers_tutorials/lib/controllers_tutorials/run_traj_control[0m
+[100%] Built target run_traj_control

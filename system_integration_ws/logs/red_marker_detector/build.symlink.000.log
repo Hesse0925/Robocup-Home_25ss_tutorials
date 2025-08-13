@@ -1,0 +1,7 @@
+Symlinking /home/laowang/workspace/system_integration_ws/devel/share/red_marker_detector/cmake/red_marker_detectorConfig.cmake
+Symlinking /home/laowang/workspace/system_integration_ws/devel/share/red_marker_detector/cmake/red_marker_detectorConfig-version.cmake
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/blue_marker_pose_node.py
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/red_marker_detector_top3.py
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/align_yaw_to_marker.py
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/red_marker_detector/red_marker_detector_node.py
+Symlinking /home/laowang/workspace/system_integration_ws/devel/lib/pkgconfig/red_marker_detector.pc
